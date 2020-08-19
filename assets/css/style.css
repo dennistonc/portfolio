@@ -123,9 +123,31 @@ p {
   color: #FCFFF5;
 }
 
+.card-desc {
+  color: #353535;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #3E606F;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+  color: #ffa000;
+}
+
+.card-title {
+  color: #193441;
+}
+
 h3 {
   color: #91AA9D;
   font-size: 50px;
+  font-weight: bold;
+}
+
+h4 {
+  color: #D1DBBD;
+  font-size: 35px;
   font-weight: bold;
 }
 
@@ -339,6 +361,7 @@ icon prefix focus color
   text-align: center;
   line-height: 1px;
   height: 40px;
+  z-index: 5;
 }
 
 @media screen and (max-width: 1644px) {
@@ -467,6 +490,37 @@ icon prefix focus color
   }
 }
 
+@media screen and (max-height: 780px) {
+  #self-photo {
+    z-index: 0;
+    position: absolute;
+    top: 3.5vh;
+  }
+
+  #home-text {
+    font-size: 76px;
+    left: 2vw;
+  }
+
+  #about-text {
+    margin-top: 20vh;
+  }
+
+  /* Scrollspy */
+  #scrollspy-text {
+    background-color: #193441;
+    position: fixed;
+    right: 7%;
+  }
+
+  #scroll-links {
+    background-color: #193441;
+    position: fixed;
+    right: 7%;
+    top: 35%;
+  }
+}
+
 @media screen and (max-height: 710px) {
   #self-photo {
     z-index: 0;
@@ -495,6 +549,68 @@ icon prefix focus color
     position: fixed;
     right: 7%;
     top: 38%;
+  }
+}
+
+@media screen and (max-height: 680px) {
+  #self-photo {
+    z-index: 0;
+    position: absolute;
+    top: 3.5vh;
+  }
+
+  #home-text {
+    font-size: 76px;
+    left: 2vw;
+  }
+
+  #about-text {
+    margin-top: 20vh;
+  }
+
+  /* Scrollspy */
+  #scrollspy-text {
+    background-color: #193441;
+    position: fixed;
+    right: 7%;
+  }
+
+  #scroll-links {
+    background-color: #193441;
+    position: fixed;
+    right: 7%;
+    top: 42%;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  #self-photo {
+    z-index: 0;
+    position: absolute;
+    top: 3.5vh;
+  }
+
+  #home-text {
+    font-size: 76px;
+    left: 2vw;
+  }
+
+  #about-text {
+    margin-top: 20vh;
+  }
+
+  /* Scrollspy */
+  #scrollspy-text {
+    background-color: #193441;
+    position: fixed;
+    right: 7%;
+  }
+
+  #scroll-links {
+    background-color: #193441;
+    position: fixed;
+    right: 7%;
+    top: 48%;
   }
 }
 
