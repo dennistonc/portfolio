@@ -160,12 +160,14 @@ sub {
 }
 
 #email-text {
-  color: #D1DBBD;
+  /* color: #D1DBBD; */
+  color: #ffa000;
   font-weight: bold;
 }
 
 #email-text:hover {
-  color: #91AA9D;
+  /* color: #91AA9D; */
+  color: #e48100;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -306,6 +308,10 @@ li {
 
 #img-wrap:hover #img-desc-wrap {
   transform: translateY(0);
+}
+
+i.icon-color {
+  color: #ffa000;
 }
 
 /* Contact Form */
