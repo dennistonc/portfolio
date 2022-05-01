@@ -43,12 +43,21 @@ main {
 
 .sidenav {
   position: fixed;
+  background-color: #193441;
+}
+
+.sidenav li>a {
+  color: #FCFFF5;
+}
+
+.sidenav li>a>i.material-icons {
+  color: #FCFFF5;
 }
 
 .sidenav-trigger {
   position: fixed;
   z-index: 5;
-  background-color: #91AA9D;
+  background-color: #193441;
   width: 100%;
   color: #FCFFF5;
 }
@@ -59,21 +68,33 @@ main {
 
 body {
   background-color: #FCFFF5;
+  background-attachment: scroll;
+}
+
+#wiggle-photo {
+  background: url(/assets/images/portfolio-bg-22-3.jpg);
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+  top: 0px;
 }
 
 #color-block {
-  background-color: #3E606F;
+  /* background-color: #3E606F; */
   position: fixed;
   z-index: -1;
   min-height: 100vh;
   height: 420vh;
-}
-
-#skyline-photo {
-  position: fixed;
-  z-index: -2;
-  right: -60vh;
-  bottom: 0px;
+  background: url(/assets/images/portfolio-bg-22-3.jpg);
+  background-attachment: fixed;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  overflow: hidden;
+  color: #000000;
+  background: inherit;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(2px);
 }
 
 #self-photo {
@@ -88,7 +109,10 @@ body {
 }
 
 #home-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  opacity: 1;
   color: #ffa000;
+  letter-spacing: normal;
   position: absolute;
   font-size: 78px;
   top: 42vh;
@@ -140,9 +164,89 @@ p {
 }
 
 h3 {
-  color: #91AA9D;
-  font-size: 50px;
-  font-weight: bold;
+  /* color: #91AA9D; */
+  color: #283a44;
+  opacity: 0.75;
+  font-family: Georgia,
+  'Times New Roman',
+  Times,
+  serif;
+  font-size: 78px;
+  letter-spacing: -3px;
+  font-weight: 900;
+  position: relative;
+}
+
+#about {
+  position: relative;
+}
+
+#overlay-about {
+color: #FFFFFF;
+font-family: Georgia,
+'Times New Roman',
+Times,
+serif;
+font-style: italic;
+font-size: 35px;
+position: absolute;
+top: 27.1vh;
+left: .2vw;
+margin: 0;
+}
+
+#skills {
+  position: relative;
+}
+
+#overlay-skills {
+  color: #FFFFFF;
+  font-family: Georgia,
+    'Times New Roman',
+    Times,
+    serif;
+  font-style: italic;
+  font-size: 35px;
+  position: absolute;
+  top: 10.65vh;
+  left: .3vw;
+  margin: 0;
+}
+
+#portfolio {
+  position: relative;
+}
+
+#overlay-portfolio {
+  color: #FFFFFF;
+  font-family: Georgia,
+    'Times New Roman',
+    Times,
+    serif;
+  font-style: italic;
+  font-size: 35px;
+  position: absolute;
+  top: 10.65vh;
+  left: .3vw;
+  margin: 0;
+}
+
+#contact {
+  position: relative;
+}
+
+#overlay-contact {
+  color: #FFFFFF;
+  font-family: Georgia,
+    'Times New Roman',
+    Times,
+    serif;
+  font-style: italic;
+  font-size: 35px;
+  position: absolute;
+  top: 10.65vh;
+  left: .3vw;
+  margin: 0;
 }
 
 h4 {
@@ -314,54 +418,17 @@ i.icon-color {
   color: #ffa000;
 }
 
-/* Contact Form */
-input {
-  color: #FCFFF5;
-}
-
-textarea {
-  color: #FCFFF5;
-}
-
-/* label color
-.input-field label {
-  color: #FCFFF5;
-}
-label focus color ffc70f
-.input-field input[type=text]:focus + label {
-  color: #FCFFF5;
-}
-label underline focus color ffc70f
-.input-field input[type=text]:focus {
-  border-bottom: 1px solid #FCFFF5;
-  box-shadow: 0 1px 0 0 #FCFFF5;
-}
-valid color 46dd97
-.input-field input[type=text].valid {
-  border-bottom: 1px solid #FCFFF5;
-  box-shadow: 0 1px 0 0 #FCFFF5;
-}
-invalid color ec726e
-.input-field input[type=text].invalid {
-  border-bottom: 1px solid #FCFFF5;
-  box-shadow: 0 1px 0 0 #FCFFF5;
-}
-icon prefix focus color
-.input-field .prefix.active {
-  color: #FCFFF5;
-} */
-
 .btn-floating {
   bottom: 35px;
 }
 
 /* Footer */
 .page-footer {
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #91AA9D;
+  background-color: #193441;
   color: #FCFFF5;
   font-size: 12px;
   text-align: center;
@@ -371,10 +438,10 @@ icon prefix focus color
 }
 
 @media screen and (max-width: 1644px) {
-  #skyline-photo {
+  #wiggle-photo {
     position: fixed;
     z-index: -2;
-    right: -40vh;
+    /* right: -40vh; */
     bottom: 0px;
   }
 
