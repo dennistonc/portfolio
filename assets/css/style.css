@@ -554,6 +554,121 @@ i.icon-color {
   }
 }
 
+@media screen and (max-width: 1500px) {
+  #wiggle-photo {
+    position: fixed;
+    z-index: -2;
+    bottom: 0px;
+  }
+
+  #port-pics {
+    width: 300px;
+  }
+
+  /* Portfolio Overlay */
+  #img-wrap {
+    position: relative;
+    height: 200px;
+    width: 311px;
+    margin-top: 10px;
+  }
+
+  #img-desc-wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(51, 51, 51, 0.6);
+    color: #FCFFF5;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+
+    /* transition effect */
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .img-desc-small {
+    font-size: 14px;
+  }
+
+  #about {
+    position: relative;
+  }
+
+  #overlay-about {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.5vh;
+    left: .2vw;
+    margin: 0;
+  }
+
+  #skills {
+    position: relative;
+  }
+
+  #overlay-skills {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.6vh;
+    left: .2vw;
+    margin: 0;
+  }
+
+  #portfolio {
+    position: relative;
+  }
+
+  #overlay-portfolio {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.6vh;
+    left: .2vw;
+    margin: 0;
+  }
+
+  #contact {
+    position: relative;
+  }
+
+  #overlay-contact {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.6vh;
+    left: .2vw;
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 1416px) {
   #port-pics {
     width: 300px;
