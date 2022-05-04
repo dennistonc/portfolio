@@ -480,6 +480,78 @@ i.icon-color {
   .img-desc-small {
     font-size: 14px;
   }
+
+  #about {
+    position: relative;
+  }
+  
+  #overlay-about {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 7.1vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #skills {
+    position: relative;
+  }
+  
+  #overlay-skills {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 7.1vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #portfolio {
+    position: relative;
+  }
+  
+  #overlay-portfolio {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 7.1vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #contact {
+    position: relative;
+  }
+  
+  #overlay-contact {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 7.1vh;
+    left: .2vw;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 1416px) {
@@ -518,6 +590,78 @@ i.icon-color {
 
   .img-desc-small {
     font-size: 14px;
+  }
+
+  #about {
+    position: relative;
+  }
+  
+  #overlay-about {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.5vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #skills {
+    position: relative;
+  }
+  
+  #overlay-skills {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.5vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #portfolio {
+    position: relative;
+  }
+  
+  #overlay-portfolio {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.5vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #contact {
+    position: relative;
+  }
+  
+  #overlay-contact {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.5vh;
+    left: .2vw;
+    margin: 0;
   }
 }
 
@@ -562,6 +706,78 @@ i.icon-color {
   .img-desc-small {
     font-size: 14px;
   }
+
+  #about {
+    position: relative;
+  }
+  
+  #overlay-about {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.4vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #skills {
+    position: relative;
+  }
+  
+  #overlay-skills {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.3vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #portfolio {
+    position: relative;
+  }
+  
+  #overlay-portfolio {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.3vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #contact {
+    position: relative;
+  }
+  
+  #overlay-contact {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.3vh;
+    left: .2vw;
+    margin: 0;
+  }
 }
 
 @media screen and (max-height: 780px) {
@@ -592,6 +808,78 @@ i.icon-color {
     position: fixed;
     right: 7%;
     top: 35%;
+  }
+
+  #about {
+    position: relative;
+  }
+  
+  #overlay-about {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #skills {
+    position: relative;
+  }
+  
+  #overlay-skills {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #portfolio {
+    position: relative;
+  }
+  
+  #overlay-portfolio {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #contact {
+    position: relative;
+  }
+  
+  #overlay-contact {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
   }
 }
 
@@ -624,6 +912,78 @@ i.icon-color {
     right: 7%;
     top: 38%;
   }
+
+  #about {
+    position: relative;
+  }
+  
+  #overlay-about {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #skills {
+    position: relative;
+  }
+  
+  #overlay-skills {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #portfolio {
+    position: relative;
+  }
+  
+  #overlay-portfolio {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #contact {
+    position: relative;
+  }
+  
+  #overlay-contact {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
 }
 
 @media screen and (max-height: 680px) {
@@ -655,6 +1015,78 @@ i.icon-color {
     right: 7%;
     top: 42%;
   }
+
+  #about {
+    position: relative;
+  }
+  
+  #overlay-about {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #skills {
+    position: relative;
+  }
+  
+  #overlay-skills {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #portfolio {
+    position: relative;
+  }
+  
+  #overlay-portfolio {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #contact {
+    position: relative;
+  }
+  
+  #overlay-contact {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
 }
 
 @media screen and (max-height: 600px) {
@@ -685,6 +1117,78 @@ i.icon-color {
     position: fixed;
     right: 7%;
     top: 48%;
+  }
+
+  #about {
+    position: relative;
+  }
+  
+  #overlay-about {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #skills {
+    position: relative;
+  }
+  
+  #overlay-skills {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #portfolio {
+    position: relative;
+  }
+  
+  #overlay-portfolio {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #contact {
+    position: relative;
+  }
+  
+  #overlay-contact {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 9.2vh;
+    left: .2vw;
+    margin: 0;
   }
 }
 
@@ -740,5 +1244,77 @@ i.icon-color {
 
   .img-desc-small {
     font-size: 14px;
+  }
+
+  #about {
+    position: relative;
+  }
+  
+  #overlay-about {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 24vh;
+    left: .2vw;
+    margin: 0;
+  }
+  
+  #skills {
+    position: relative;
+  }
+  
+  #overlay-skills {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 8.7vh;
+    left: .3vw;
+    margin: 0;
+  }
+  
+  #portfolio {
+    position: relative;
+  }
+  
+  #overlay-portfolio {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 8.7vh;
+    left: .3vw;
+    margin: 0;
+  }
+  
+  #contact {
+    position: relative;
+  }
+  
+  #overlay-contact {
+    color: #FFFFFF;
+    font-family: Georgia,
+      'Times New Roman',
+      Times,
+      serif;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 8.7vh;
+    left: .3vw;
+    margin: 0;
   }
 }
