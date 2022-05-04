@@ -102,6 +102,7 @@ body {
   position: absolute;
   right: 30vw;
   top: 5vh;
+  filter: drop-shadow(3px 3px 3px rgba(48, 48, 48, .4));
 }
 
 #home {
