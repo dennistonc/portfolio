@@ -554,7 +554,7 @@ i.icon-color {
   }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1643px) {
   #wiggle-photo {
     position: fixed;
     z-index: -2;
@@ -609,7 +609,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 9.5vh;
+    top: 8.8vh;
     left: .2vw;
     margin: 0;
   }
@@ -627,7 +627,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 9.6vh;
+    top: 8.8vh;
     left: .2vw;
     margin: 0;
   }
@@ -645,7 +645,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 9.6vh;
+    top: 8.8vh;
     left: .2vw;
     margin: 0;
   }
@@ -663,7 +663,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 9.6vh;
+    top: 8.8vh;
     left: .2vw;
     margin: 0;
   }
