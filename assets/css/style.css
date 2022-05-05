@@ -494,7 +494,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 7.1vh;
+    top: 9.5vh;
     left: .2vw;
     margin: 0;
   }
@@ -512,7 +512,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 7.1vh;
+    top: 9.5vh;
     left: .2vw;
     margin: 0;
   }
@@ -530,7 +530,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 7.1vh;
+    top: 9.5vh;
     left: .2vw;
     margin: 0;
   }
@@ -548,7 +548,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 7.1vh;
+    top: 9.5vh;
     left: .2vw;
     margin: 0;
   }
@@ -609,7 +609,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 8.8vh;
+    top: 9.5vh;
     left: .2vw;
     margin: 0;
   }
@@ -627,7 +627,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 8.8vh;
+    top: 9.5vh;
     left: .2vw;
     margin: 0;
   }
@@ -645,7 +645,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 8.8vh;
+    top: 9.5vh;
     left: .2vw;
     margin: 0;
   }
@@ -663,7 +663,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 8.8vh;
+    top: 9.5vh;
     left: .2vw;
     margin: 0;
   }
@@ -720,7 +720,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 9.5vh;
+    top: 9.4vh;
     left: .2vw;
     margin: 0;
   }
@@ -738,7 +738,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 9.5vh;
+    top: 9.4vh;
     left: .2vw;
     margin: 0;
   }
@@ -756,7 +756,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 9.5vh;
+    top: 9.4vh;
     left: .2vw;
     margin: 0;
   }
@@ -774,7 +774,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 9.5vh;
+    top: 9.4vh;
     left: .2vw;
     margin: 0;
   }
@@ -835,7 +835,7 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 9.4vh;
+    top: 9.3vh;
     left: .2vw;
     margin: 0;
   }
@@ -1308,6 +1308,10 @@ i.icon-color {
 }
 
 @media screen and (max-width: 500px) {
+  #wiggle-photo {
+    background-position-x: center;
+  }
+
   #self-photo {
     z-index: 0;
     position: absolute;
@@ -1392,8 +1396,8 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 8.7vh;
-    left: .3vw;
+    top: 9.2vh;
+    left: .2vw;
     margin: 0;
   }
   
@@ -1410,8 +1414,8 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 8.7vh;
-    left: .3vw;
+    top: 9.2vh;
+    left: .2vw;
     margin: 0;
   }
   
@@ -1428,8 +1432,8 @@ i.icon-color {
     font-style: italic;
     font-size: 35px;
     position: absolute;
-    top: 8.7vh;
-    left: .3vw;
+    top: 9.2vh;
+    left: .2vw;
     margin: 0;
   }
 }
