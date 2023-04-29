@@ -18,6 +18,15 @@ $(document).ready(function(){
   $('.fixed-action-btn').floatingActionButton();
 });
 
+// MODAL
+$(document).ready(function(){
+    $('.modal').modal();
+  });
+
+$('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
 
 // ANIME.JS
 // Wrap every letter in a span
