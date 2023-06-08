@@ -1,3 +1,8 @@
+div.card-action a.disabled-wip {
+  color: #cecece !important;
+  pointer-events: none;
+}
+
 /* Original Color Theme */
 .Original-Blue-1-hex { color: #467896; }
 .Original-Orange-1-hex { color: #ffa000; }
@@ -25,10 +30,23 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  color:rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.075);
 }
 
 body::-webkit-scrollbar-thumb {
+  background-color: #193441;
+}
+
+/* Modal Scroll Bar Styling */
+.modal::-webkit-scrollbar {
+  width: .90em;
+}
+
+.modal::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.modal::-webkit-scrollbar-thumb {
   background-color: #193441;
 }
 
@@ -117,7 +135,6 @@ body {
   position: relative;
   width: 75%;
   height: 50%;
-  position: relative;
   padding-top: 1vh;
   top: 0px;
   left: 0px;
@@ -125,32 +142,48 @@ body {
 
 #materialbox-overlay {
   opacity: 1;
-  width: 1365px;
-  height: 975px;
+  width: 100%;
+  height: 100%;
   left: 0px;
   top: 0px;
 }
 
-/* #modal1 {
-  z-index: 2;
+.materialboxed.active data-caption {
+  z-index: 1003;
 }
 
-.modal {
-  z-index: 2;
+.materialbox-caption {
+  position: fixed !important;
+  z-index: 1003;
 }
 
-.modal-content {
-  z-index: 2;
+div .card .card-action {
+  background-color: inherit;
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  position: unset;
+  padding: 16px 24px;
 }
 
-.card .card-action .card-link .card.sticky-action {
-  z-index: -1 !important;
+h6.card-desc.card-caption {
+  color: #3E606F;
 }
 
-.card.sticky-action .card-action {
-  z-index: 0 !important;
-} */
+p.caption.center-align {
+  color: #3E606F;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
+.modal-exit {
+  border-radius: 0 0 2px 2px;
+  background-color: #fafafa;
+  padding: 4px 6px;
+  height: 10px;
+  width: 100%;
+  top: .5vh;
+  text-align: left;
+  position: sticky;
+}
 
 /* Anime.js CSS */
 .ml11 .text-wrapper {
@@ -190,6 +223,11 @@ p {
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
   color: #ffa000;
+}
+
+a .btn, .btn-large, .btn-small, .btn-floating, .btn-large, .btn-small, .btn-flat {
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .card-title {

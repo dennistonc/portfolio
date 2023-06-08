@@ -11,7 +11,44 @@ $(document).ready(function(){
 // MATERIAL IMG
 $(document).ready(function(){
   $('.materialboxed').materialbox();
+  // $('#materialbox-overlay').materialbox();
 });
+
+
+// get id materialbox-overlay
+// use img class materialboxed active to check if active
+// add .css style overflow: hidden to materialbox-overlay
+
+// $(document).ready(function(){
+//   $('.materialboxed').materialbox();
+//   $('img.materialboxed.active').css("overflow", "hidden");
+//   .hide("")
+// });
+
+// $(document).ready(function(){
+//   $('.materialboxed').materialbox();
+//   $('#materialbox-overlay').materialbox();
+//   if (overlayActive = true) {
+//       $('.materialboxed').attr('style', 'overflow: hidden')
+//     }
+//   overlayActive(true);
+// });
+
+// $(document).ready(function(){
+//   $('.materialboxed').materialbox();
+//   $('#materialbox-overlay').getElementbyID({
+//   if (active = true) {
+//       $('.materialboxed').attr('style', 'overflow: hidden')
+//     }
+//   });
+//   active(true);
+// });
+
+// $(document).ready(function(){
+//   $(".materialboxed").materialbox(function(){
+//     $("#materialbox-overlay").toggleClass("active-hide");
+//   });
+// });
 
 // FLOATING ACTION BUTTON
 $(document).ready(function(){
@@ -61,67 +98,3 @@ anime.timeline({loop: false})
     easing: "easeOutExpo",
   })
 });
-
-// FORM SUBMISSION HANDLING
-// $(function()
-// {
-//     function after_form_submitted(data)
-//     {
-//         if(data.result == 'success')
-//         {
-//             $('form#reused_form').hide();
-//             $('#success_message').show();
-//             $('#error_message').hide();
-//         }
-//         else
-//         {
-//             $('#error_message').append('<ul></ul>');
-
-//             jQuery.each(data.errors,function(key,val)
-//             {
-//                 $('#error_message ul').append('<li>'+key+':'+val+'</li>');
-//             });
-//             $('#success_message').hide();
-//             $('#error_message').show();
-
-//             //reverse the response on the button
-//             $('button[type="button"]', $form).each(function()
-//             {
-//                 $btn = $(this);
-//                 label = $btn.prop('orig_label');
-//                 if(label)
-//                 {
-//                     $btn.prop('type','submit' );
-//                     $btn.text(label);
-//                     $btn.prop('orig_label','');
-//                 }
-//             });
-
-//         }//else
-//     }
-
-// 	$('#reused_form').submit(function(e)
-//       {
-//         e.preventDefault();
-
-//         $form = $(this);
-//         //show some response on the button
-//         $('button[type="submit"]', $form).each(function()
-//         {
-//             $btn = $(this);
-//             $btn.prop('type','button' );
-//             $btn.prop('orig_label',$btn.text());
-//             $btn.text('Sending ...');
-//         });
-
-
-//                     $.ajax({
-//                 type: "POST",
-//                 url: 'handler.php',
-//                 data: $form.serialize(),
-//                 success: after_form_submitted,
-//                 dataType: 'json'
-//             });
-
-//       });
-// });
