@@ -3,6 +3,10 @@ div.card-action a.disabled-wip {
   pointer-events: none;
 }
 
+div.card-action a.disabled-wip-two {
+  pointer-events: none;
+}
+
 /* Original Color Theme */
 .Original-Blue-1-hex { color: #467896; }
 .Original-Orange-1-hex { color: #ffa000; }
